@@ -2,9 +2,9 @@
 Latest movies at one glance - a React starter project.
 
 
---================================================================================== \
+--======================================================================== \
 -- THE MAKING OF THIS REACT APP \
---================================================================================== 
+--======================================================================== 
 1. npx create-react-app movie-dreamer
 2. Tidy up movie-dreamer/public directory <br/>
    ```
@@ -59,3 +59,4 @@ Latest movies at one glance - a React starter project.
    heroku logs --tail
    heroku open
    ```
+10. Heroku URL: https://gentle-retreat-50268.herokuapp.com/
