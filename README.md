@@ -15,7 +15,7 @@ Latest movies at one glance - a React starter project.
    manifest.json
    robots.txt
    ```
-3. cd movie-dreamer
+3. cd movie-dreamer <br/>
    npm start  # http://localhost:3000/ should display sample React App page.
 4. Create src/componments/Movie.js
    ```
@@ -28,13 +28,26 @@ Latest movies at one glance - a React starter project.
 5. src/App.js
    src/index.css
 
-6. Build and test the build
+6. Features
+   - Pagination <br/>
+   - Search <br/>
+   - Loading indication <br/>
+   - Componentization <br/>
+
+7. Dependencies to install
+   - react-paginate
+   - axios
+   - styled-components
+   - react-loader-spinner [To experiment]
+   - react-infinite-scroll-component [To experiment]
+
+8. Build and test the build
    ```
    npm build 
    npm install -g serve
    serve -s build
    ```
-7. Heroku deployment
+9. Heroku deployment
    ```
    git init
    heroku login
